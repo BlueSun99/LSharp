@@ -102,7 +102,7 @@ namespace xSaliceResurrected.Utilities
                 }
             }
 
-            if (Utils.TickCount <= LastPlaced + 3000 || !E.IsReady()) return;
+            if (Utils.TickCount <= LastPlaced + 500 || !E.IsReady()) return;
 
             Vector3 cursorPos = Game.CursorPos;
             Vector3 myPos = Player.ServerPosition;
